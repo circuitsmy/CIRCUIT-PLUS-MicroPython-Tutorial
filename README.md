@@ -1,4 +1,4 @@
-# ESP32 MicroPython Tutorial
+# Circuit Plus - MicroPython Tutorial
 
 ## Getting Started – Installation
 Before we start our Micropython tutorial, we need to install some software as prerequisite of this tutorial.
