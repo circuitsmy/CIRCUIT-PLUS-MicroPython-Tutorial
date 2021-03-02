@@ -1,6 +1,5 @@
 # Circuit Plus - MicroPython Tutorial
 
-
 ![circuit plus](https://user-images.githubusercontent.com/60383798/109620336-b8b19280-7b74-11eb-85ed-6b7aab0c17b6.png)
 
 
