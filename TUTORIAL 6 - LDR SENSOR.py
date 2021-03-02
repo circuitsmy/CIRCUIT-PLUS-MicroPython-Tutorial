@@ -1,3 +1,5 @@
+# CIRCUIT PLUS - Tutorial 06 LDR SENSOR
+
 from machine import ADC, Pin
 import time
 
