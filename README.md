@@ -14,7 +14,7 @@ Before we start our Micropython tutorial, we need to install some software as pr
 The MicroPython firmware are available for many microcontroller-ESP based built. You will see several firmware on the list.
 The correct installer that you have to download the installer as shown below:
 
-	![firmware](https://user-images.githubusercontent.com/60383798/109600424-0f5ca380-7b58-11eb-9ab5-652e7478e719.PNG)
+![firmware](https://user-images.githubusercontent.com/60383798/109600424-0f5ca380-7b58-11eb-9ab5-652e7478e719.PNG)
 	
 When downloading the file, you will need to rename the file. Since the filename is long and it will be hard for you to type the long name. Rename it simpler as ESP32.
 
@@ -24,6 +24,6 @@ When downloading the file, you will need to rename the file. Since the filename 
 
 	`<pip install esptool>` 
 
-		![pipinstall (2)](https://user-images.githubusercontent.com/60383798/109600864-db35b280-7b58-11eb-98c9-157813b2f5dc.png)
+![pipinstall (2)](https://user-images.githubusercontent.com/60383798/109600864-db35b280-7b58-11eb-98c9-157813b2f5dc.png)
 
 
