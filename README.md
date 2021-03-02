@@ -83,8 +83,11 @@ The result should be like this:
 
 2. Open your Thonny Ide and setup the Intrepreter and the port options and save.
 
-Go to Tools > Option > Intrepreter > MicroPython (Generic)
-Port > [Current Circuit Plus Port]
+	Go to Tools > Option > Intrepreter > MicroPython (Generic)
+	
+3. Setup the port
+
+	Port > [Current Circuit Plus Port]
 
 ![option (4)](https://user-images.githubusercontent.com/60383798/109603447-c0fdd380-7b5c-11eb-9cf1-e878319ba8e6.png)
 
