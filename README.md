@@ -22,6 +22,8 @@ When downloading the file, you will need to rename the file. Since the filename 
 1. On your search windows, type in cmd and click the Command Prompt Application.
 2. Type the following command and pressed Enter.
 
-`<pip install esptool>` 
+	`<pip install esptool>` 
+
+![pipinstall (2)](https://user-images.githubusercontent.com/60383798/109600864-db35b280-7b58-11eb-98c9-157813b2f5dc.png)
 
 
