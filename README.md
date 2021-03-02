@@ -33,8 +33,65 @@ You will see some file are being downloaded to complete the esptool installation
 You need to clean the firmware by erasing everything unrelated to make the ESP32 firmware in a clean state. For this action, you must connect your Circuit Plus Board to your computer.
 
 Go to your cmd and type this following command:
-
-`<esptool.py --chip esp32 erase_flash>` 
-
 	
+	`<esptool.py --chip esp32 erase_flash>` 
+
+![erase flash (2)](https://user-images.githubusercontent.com/60383798/109601652-3caa5100-7b5a-11eb-8f3c-c038dc2e38d4.jpg)
+	
+You will see the command will connect to the board and access the chip and completely erase the flash. 
+
+## ESP32 Serial Port Configuration
+
+Serial Port number have been assigned to the Circuit Plus Board when you connect the board to the computer. To check the assigned serial number, you have to go to your computer Device Manager.
+
+1. Go to search Window and type Device Manager and click the Device Manager Application.
+2. Click down the Ports and see the list of ports connected to your computer. By referring to the list, you should be able to see the serial port number for the Circuit Plus Board.
+
+![port](https://user-images.githubusercontent.com/60383798/109601770-6d8a8600-7b5a-11eb-92df-4bbc34b4cfc6.png)
+
+If you unsure which one is the port that your board connected to, try connect and disconnect the board from your computer. You will see it on the device manager.
+
+3. Then, Navigate your Micropython firmware address. Since I downloaded the firmware and stored in the Download folder then I shall use this location link.
+
+You can get it by right click the Download Folder. Download Properties > Location 
+
+![dwld](https://user-images.githubusercontent.com/60383798/109601838-927ef900-7b5a-11eb-9318-7dea9e260b27.png)
+
+	`<C:\Users\PC1\Downloads>` 
+
+Copy the location address and paste it to your command prompt.
+
+![cmd](https://user-images.githubusercontent.com/60383798/109601925-b80c0280-7b5a-11eb-8b24-4c378b345e5a.png)
+
+4. Next, type this following command. 
+
+	`<esptool.py --chip esp32 --port [serial_port] write_flash -z 0x1000 [firmwareName.bin]>` 
+
+In the command, replace the serial port number with the serial number that you get before. Also, change the firmware name to the name you have save before and run the command. 
+
+![scmd](https://user-images.githubusercontent.com/60383798/109602229-e2f65680-7b5a-11eb-9e86-ea0e11a57065.png)
+
+The result should be like this:
+
+![scmd](https://user-images.githubusercontent.com/60383798/109602379-f99cad80-7b5a-11eb-947e-4bb7e990b639.png)
+
+## Configure MicroPython with Thonny IDE
+
+1. Download Thonny IDE and complete the installation.
+
+![thonny](https://user-images.githubusercontent.com/60383798/109602447-0f11d780-7b5b-11eb-865b-8eb7c758483c.png)
+
+2. Open your Thonny Ide and setup the Intrepreter and the port options and save.
+
+Go to Tools > Option > Intrepreter > MicroPython (Generic)
+Port > [Current Circuit Plus Port]
+
+![option](https://user-images.githubusercontent.com/60383798/109602511-3072c380-7b5b-11eb-8ae6-70477b561839.png)
+
+
+
+
+
+
+
 
