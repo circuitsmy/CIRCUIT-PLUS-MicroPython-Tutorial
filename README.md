@@ -26,4 +26,15 @@ When downloading the file, you will need to rename the file. Since the filename 
 
 ![pipinstall (2)](https://user-images.githubusercontent.com/60383798/109600864-db35b280-7b58-11eb-98c9-157813b2f5dc.png)
 
+You will see some file are being downloaded to complete the esptool installation. To check the esptool is successfully downloaded, you can type in **esptool.py** and run. Then, the cmd terminal will run your command. Otherwise, it will be error.
+
+## Clean the Firmware
+
+You need to clean the firmware by erasing everything unrelated to make the ESP32 firmware in a clean state. For this action, you must connect your Circuit Plus Board to your computer.
+
+Go to your cmd and type this following command:
+
+`<esptool.py --chip esp32 erase_flash>` 
+
+	
 
