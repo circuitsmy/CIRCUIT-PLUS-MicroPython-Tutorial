@@ -47,7 +47,7 @@ Serial Port number have been assigned to the Circuit Plus Board when you connect
 1. Go to search Window and type Device Manager and click the Device Manager Application.
 2. Click down the Ports and see the list of ports connected to your computer. By referring to the list, you should be able to see the serial port number for the Circuit Plus Board.
 
-![port](https://user-images.githubusercontent.com/60383798/109601770-6d8a8600-7b5a-11eb-92df-4bbc34b4cfc6.png)
+![port (2)](https://user-images.githubusercontent.com/60383798/109602672-83e51180-7b5b-11eb-86d0-27728afe80f8.png)
 
 If you unsure which one is the port that your board connected to, try connect and disconnect the board from your computer. You will see it on the device manager.
 
@@ -55,13 +55,13 @@ If you unsure which one is the port that your board connected to, try connect an
 
 You can get it by right click the Download Folder. Download Properties > Location 
 
-![dwld](https://user-images.githubusercontent.com/60383798/109601838-927ef900-7b5a-11eb-9318-7dea9e260b27.png)
+![dwld (2)](https://user-images.githubusercontent.com/60383798/109602731-a24b0d00-7b5b-11eb-841f-236e7e7d3b97.png)
 
 	`<C:\Users\PC1\Downloads>` 
 
 Copy the location address and paste it to your command prompt.
 
-![cmd](https://user-images.githubusercontent.com/60383798/109601925-b80c0280-7b5a-11eb-8b24-4c378b345e5a.png)
+![cmd (2)](https://user-images.githubusercontent.com/60383798/109602835-d6263280-7b5b-11eb-8f9c-f0e81b338a41.png)
 
 4. Next, type this following command. 
 
@@ -69,11 +69,11 @@ Copy the location address and paste it to your command prompt.
 
 In the command, replace the serial port number with the serial number that you get before. Also, change the firmware name to the name you have save before and run the command. 
 
-![scmd](https://user-images.githubusercontent.com/60383798/109602229-e2f65680-7b5a-11eb-9e86-ea0e11a57065.png)
+![scmd (2)](https://user-images.githubusercontent.com/60383798/109602921-01a91d00-7b5c-11eb-917b-b8e2158fbbdd.png)
 
 The result should be like this:
 
-![scmd](https://user-images.githubusercontent.com/60383798/109602379-f99cad80-7b5a-11eb-947e-4bb7e990b639.png)
+![whatever](https://user-images.githubusercontent.com/60383798/109603069-459c2200-7b5c-11eb-890c-25fcadde8cf6.jpg)
 
 ## Configure MicroPython with Thonny IDE
 
@@ -86,7 +86,8 @@ The result should be like this:
 Go to Tools > Option > Intrepreter > MicroPython (Generic)
 Port > [Current Circuit Plus Port]
 
-![option](https://user-images.githubusercontent.com/60383798/109602511-3072c380-7b5b-11eb-8ae6-70477b561839.png)
+![option (4)](https://user-images.githubusercontent.com/60383798/109603447-c0fdd380-7b5c-11eb-9cf1-e878319ba8e6.png)
+
 
 
 
